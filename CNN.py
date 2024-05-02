@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-from model.nnutils.MLP import MLP
+from MLP import MLP
 
 
 class CNN(nn.Module):
